@@ -12,7 +12,7 @@ import networks
 def get_arguments():
     """Parse all the arguments provided from the CLI.
     Returns:
-      A list of parsed arguments.
+    A list of parsed arguments.
     """
     parser = argparse.ArgumentParser(description="Yolo + Human Parsing in video")
 
