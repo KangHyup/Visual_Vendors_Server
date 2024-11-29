@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
     ninja-build \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+RUN chmod +x cuda_11.8.0_520.61.05_linux.run
+RUN sudo ./cuda_11.8.0_520.61.05_linux.run
 
 # Python 패키지 종속성 복사 및 설치 (변동성이 적은 requirements.txt 먼저 설치)
 COPY requirements.txt ./

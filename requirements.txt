@@ -20,3 +20,5 @@ pillow
 
 # Ninja: PyTorch 확장 모듈 빌드에 필요
 ninja
+
+# CUDA Toolkit 11.8
