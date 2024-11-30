@@ -1,24 +1,12 @@
-# Flask: API 서버 프레임워크
-flask
-
-# YOLO 모델과 관련된 라이브러리
-ultralytics
-tqdm
-
-# PyTorch: 딥러닝 프레임워크 (CUDA 지원)
-torch
-torchvision
-
-# OpenCV: 영상 처리 라이브러리
-opencv-python
-
-# Numpy: 데이터 처리 라이브러리
-numpy
-
-# Pillow: 이미지 처리 라이브러리
-pillow
-
-# Ninja: PyTorch 확장 모듈 빌드에 필요
-ninja
-
-# CUDA Toolkit 11.8
+torch==1.7.0+cu101
+torchvision==0.8.1+cu101
+opencv-python-headless==4.5.1.48
+flask==1.1.2
+numpy==1.19.4
+Pillow==8.0.1
+matplotlib==3.3.3
+seaborn==0.11.0
+pandas==1.1.4
+scipy==1.5.4
+requests==2.25.0
+tqdm==4.54.0
