@@ -1,7 +1,12 @@
 opencv-python-headless==4.5.1.48
-flask==1.1.2
+flask>=2.0.0
 matplotlib==3.3.3
 seaborn==0.11.0
 pandas==1.1.4
+pytz==2023.3.post1
 scipy==1.5.4
-requests==2.25.0
+future==0.18.2
+ultralytics==8.0.20
+werkzeug==2.2.3
+requests>=2.25.0
+urllib3>=1.26.0
