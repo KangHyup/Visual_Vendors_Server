@@ -67,4 +67,4 @@ RUN python -c "import torch; print(torch.cuda.is_available())"
 EXPOSE 8080
 
 # Flask 서버 실행
-CMD ["python", "server.py"]
+CMD ["python3", "server.py"]

@@ -1,3 +1,9 @@
+# Exclude unnecessary files
+../*
+
+# Include only current folder
+!./*
+
 # 소스 코드 빌드에 불필요한 파일 및 디렉토리 제외
 __pycache__/
 *.pyc
@@ -34,3 +40,5 @@ LICENSE
 *.cache
 *.egg-info
 *.eggs
+
+visual_vendors_server/
